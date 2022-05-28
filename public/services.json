@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 1,
+        "name": "Motorcycle Engine",
+        "price": "154.80",
+        "minimum-order": "20",
+        "available": "200",
+        "description": "125cc Motorcycle Engine Single Cylinder 4 Strokes Air Cooled Engine with Reverse Gear Engine for ATV Motorbike Motorcycle",
+        "img": "https://www.motorcyclevalley.com/images/dictionary/v-twin-engine.jpg"
+    },
+    {
+        "_id": 2,
+        "name": "Motorcycle Transmissions",
+        "price": "100",
+        "minimum-order": "20",
+        "available": "100",
+        "description": "Here is a six-speed drum-shifted motorcycle transmission of the so-called “cassette” type.",
+        "img": "https://www.cycleworld.com/resizer/KavAJP31eYNdSTAn8X2Jkrd7BFU=/1440x0/smart/cloudfront-us-east-1.images.arcpublishing.com/octane/WMF36OICPZEJDPKABMHQVHXBZ4.jpg"
+    },
+    {
+        "_id": 3,
+        "name": "Motorcycle Rim Tape",
+        "price": "177.80",
+        "minimum-order": "20",
+        "available": "20",
+        "description": "R&G Motorcycle Rim Tape for 17 Inch wheels - Green",
+        "img": "https://m.media-amazon.com/images/I/717nz0LzWrL._AC_SX425_.jpg"
+    }
+]
