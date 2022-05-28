@@ -38,7 +38,6 @@ const Navbar = () => {
                         </li>
                         <li><a>Contact Us</a></li>
                     </ul>
-
                 </div>
             </div>
         </div>
