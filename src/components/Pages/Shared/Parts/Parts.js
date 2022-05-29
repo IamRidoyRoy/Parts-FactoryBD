@@ -10,7 +10,7 @@ const Parts = () => {
             .then(data => setParts(data))
     }, [])
     return (
-        <div>
+        <div className='my-16'>
             <h2 className='text-4xl text-center text-primary font-bold mt-10'>Parts</h2>
             <div className='grid grid-cols-1 justify-items-center lg:grid-cols-3 mx-12'>
                 {
