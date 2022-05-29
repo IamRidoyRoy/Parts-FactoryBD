@@ -26,9 +26,11 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
-                        <li><a>Home</a></li>
-                        <li><a>Dashboard</a></li>
-                        <li><a>About</a></li>
+                        <li><Link to='/home'>Home</Link></li>
+                        <li><Link to='/purchase'>Purchase</Link></li>
+                        <li><Link to='/dashboard'>Dashboard</Link></li>
+                        <li><Link to='/About'>About</Link></li>
+
                         <li tabindex="0">
                             <a>
                                 Parent
@@ -39,7 +41,7 @@ const Navbar = () => {
                                 <li><a>Submenu 2</a></li>
                             </ul>
                         </li>
-                        <li><a>Contact Us</a></li>
+                        <li><Link to='/contact'>Contact Us</Link></li>
                     </ul>
                 </div>
             </div>
