@@ -1,3 +1,5 @@
+import { faMotorcycle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -19,7 +21,8 @@ const Navbar = () => {
                             <li><Link to='/login'>Login</Link></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">Bike Parts Factory</a>
+                    <a className="btn btn-ghost  normal-case text-xl"> <FontAwesomeIcon className='text-xl mx-2' icon={faMotorcycle}></FontAwesomeIcon>
+                        Parts Factory <span className='text-primary'> BD.</span></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
