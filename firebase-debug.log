@@ -1,0 +1,33 @@
+[debug] [2022-05-29T09:28:54.689Z] ----------------------------------------------------------------------
+[debug] [2022-05-29T09:28:54.706Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hrido\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-05-29T09:28:54.707Z] CLI Version:   10.7.1
+[debug] [2022-05-29T09:28:54.707Z] Platform:      win32
+[debug] [2022-05-29T09:28:54.707Z] Node Version:  v16.13.2
+[debug] [2022-05-29T09:28:54.866Z] Time:          Sun May 29 2022 15:28:54 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-05-29T09:28:54.867Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-29T09:28:54.894Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] Already logged in as ridoyroycse53engg@gmail.com
+[debug] [2022-05-29T09:29:05.070Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-05-29T09:29:05.072Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-05-29T09:29:40.283Z] ----------------------------------------------------------------------
+[debug] [2022-05-29T09:29:40.286Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hrido\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-29T09:29:40.287Z] CLI Version:   10.7.1
+[debug] [2022-05-29T09:29:40.287Z] Platform:      win32
+[debug] [2022-05-29T09:29:40.287Z] Node Version:  v16.13.2
+[debug] [2022-05-29T09:29:40.288Z] Time:          Sun May 29 2022 15:29:40 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-05-29T09:29:40.289Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-29T09:29:40.300Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-29T09:29:40.301Z] > authorizing via signed-in user (ridoyroycse53engg@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  H:\Programming Hero\Milestone 12 ~ Final Project(Complete website)\Module - 78  ~ Assignment\bike-parts-factory-client
+

@@ -3,9 +3,9 @@ import React from 'react';
 const NewsLetter = () => {
     return (
         <div>
-            <h2 className='text-4xl text-center text-primary font-bold my-12'>NewsLetter</h2>
+            <h2 className='text-4xl text-center text-primary font-bold my-12 '>NewsLetter</h2>
             <div class="bg-white flex items-center justify-center ">
-                <div class="mx-auto w-full max-w-screen-lg bg-blue-700 px-5 py-10">
+                <div class="mx-auto w-full max-w-screen-lg bg-primary rounded-lg px-5 py-10">
                     <div class="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
                         <div class="flex justify-center md:justify-end">
                             <img class="w-full max-w-sm" src="https://ouch-cdn2.icons8.com/sKnF2PmYhkmP28DzIm6KqWSknT03UVWjg3FLlGYIOp4/rs:fit:684:456/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvOTI3/L2U4OWQ2NmZiLTg0/NzEtNDc3NS1hNTA0/LTMwNWRiYmJkNzg0/MC5zdmc.png" alt="Marketing newsletter via computer Illustration in PNG, SVG" />
