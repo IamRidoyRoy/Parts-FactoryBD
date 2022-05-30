@@ -9,7 +9,7 @@ const Purchase = ({ setDetails }) => {
     const [product, setProduct] = useState([]);
     const [user] = useAuthState(auth);
     useEffect(() => {
-        const url = `http://localhost:5000/product/${productId}`;
+        const url = `https://polar-depths-39868.herokuapp.com/product/${productId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data))
@@ -18,8 +18,8 @@ const Purchase = ({ setDetails }) => {
 
     return (
         <div>
-            <div class="hero min-h-screen ">
-                <div class="hero-content flex-col lg:flex-row">
+            <div className="hero min-h-screen ">
+                <div className="hero-content flex-col lg:flex-row">
                     <label
                         onClick={() => setDetails(product)}
 
@@ -27,14 +27,20 @@ const Purchase = ({ setDetails }) => {
                     </label>
                     <img width={500} src={product.img} alt='' />
                     <div>
-                        <div class="card w-96 bg-primary text-primary-content">
-                            <div class="card-body">
-                                <h2 class="card-title">Product Name: {product.name}</h2>
+                        <div className="card w-96 bg-primary text-primary-content">
+                            <div className="card-body">
+                                <h2 className="card-title">Product Name: {product.name}</h2>
                                 <form className='grid grid-cols-1 justify-items-center  gap-3 mt-5'>
                                     <input type="text" name='name' value={user?.displayName} className="input text-neutral input-bordered w-full max-w-xs" />
                                     <input type="text" name='email' value={user?.email} className="input text-neutral input-bordered w-full max-w-xs" />
                                     <input type="text" name='phone' placeholder="Phone number" className="input input-bordered w-full max-w-xs" required />
                                     <input type="text" name='address' placeholder='Address' className="input text-neutral input-bordered w-full max-w-xs" />
+                                    <select name='quantity' className="select text-neutral select-bordered w-full max-w-xs">
+
+                                        <option>{product.minimum} piece</option>
+
+
+                                    </select>
                                     <input type="submit" value='Place Order' className="btn btn-secondary w-full max-w-xs" />
                                 </form>
                             </div>

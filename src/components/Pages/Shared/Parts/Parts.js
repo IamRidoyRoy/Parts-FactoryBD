@@ -7,7 +7,7 @@ const Parts = () => {
     const [details, setDetails] = useState(null);
 
     useEffect(() => {
-        fetch('http://localhost:5000/product')
+        fetch('https://polar-depths-39868.herokuapp.com/product')
             .then(res => res.json())
             .then(data => setParts(data))
     }, [])
@@ -29,6 +29,7 @@ const Parts = () => {
                 <DetailsModal
                     details={details}
                     setDetails={setDetails}
+                    parts={parts}
                 >
                 </DetailsModal>
             }
