@@ -8,6 +8,7 @@ import MyProfile from './components/Pages/Dashboard/MyProfile';
 import Home from './components/Pages/Home/Home';
 import Login from './components/Pages/Login/Login';
 import SignUp from './components/Pages/Login/SignUp';
+import PageNotFound from './components/Pages/PageNotFound/PageNotFound';
 import Portfolio from './components/Pages/Portfolio/Portfolio';
 import Purchase from './components/Pages/Purchase/Purchase';
 import Footer from './components/Pages/Shared/Footer/Footer';
@@ -44,6 +45,7 @@ function App() {
         }></Route>
         <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='/*' element={<PageNotFound></PageNotFound>}></Route>
 
       </Routes>
       <Footer></Footer>
