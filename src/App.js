@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Blogs from './components/Pages/Blogs/Blogs';
 import AddReview from './components/Pages/Dashboard/AddReview';
 import Dashboard from './components/Pages/Dashboard/Dashboard';
 import MyOrders from './components/Pages/Dashboard/MyOrders';
@@ -7,6 +8,7 @@ import MyProfile from './components/Pages/Dashboard/MyProfile';
 import Home from './components/Pages/Home/Home';
 import Login from './components/Pages/Login/Login';
 import SignUp from './components/Pages/Login/SignUp';
+import Portfolio from './components/Pages/Portfolio/Portfolio';
 import Purchase from './components/Pages/Purchase/Purchase';
 import Footer from './components/Pages/Shared/Footer/Footer';
 import Navbar from './components/Pages/Shared/Header/Navbar';
@@ -40,7 +42,8 @@ function App() {
             <Purchase></Purchase>
           </RequireAuth>
         }></Route>
-
+        <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
 
       </Routes>
       <Footer></Footer>
