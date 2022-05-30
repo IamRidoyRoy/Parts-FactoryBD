@@ -23,7 +23,7 @@ const Testimonial = () => {
         {
             _id: 3,
             name: 'Ansthesia Clinton',
-            review: 'Thankyou so much to the guys at parts factory. They gave me so much help with my i30 as I do not know much about cars. They have amazing customer service and I highly recommend them.',
+            review: 'Thankyou so much to the guys at parts factory. They gave me so much help with my i30 as I do not know much about Bikes. They have amazing customer service and I highly recommend them.',
             location: 'California',
             img: people3
         }

@@ -1,8 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const SingleParts = ({ single }) => {
-    const { name, img, description, price, available, minimum } = single;
+    const { name, img, description, price, available, minimum, _id } = single;
+    const navigate = useNavigate();
+    const navigateToServiceDetails = id => {
+        navigate(`/product/${id}`);
+    }
     return (
         <div class="card card-compact lg:w-80 gap-5 bg-base-100 shadow-xl my-3 text-center">
             <figure><img className='h-40' src={img} alt="Motor Bike Parts" /></figure>
@@ -12,7 +16,9 @@ const SingleParts = ({ single }) => {
                 <p>Minimum Order Quantity: {minimum}</p>
                 <p>{description}</p>
                 <div class="card-actions justify-center ">
-                    <Link to='/purchase' class="btn btn-primary ">Buy Now</Link>
+                    <button onClick={() => navigateToServiceDetails(_id)} class="btn btn-primary ">Buy Now</button>
+                    {/* <button className='btn btn-primary'>Book - {name}</button> */}
+
                 </div>
             </div>
         </div>
