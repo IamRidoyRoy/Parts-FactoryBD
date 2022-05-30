@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import DetailsModal from '../../Purchase/DetailsModal';
 import SingleParts from './SingleParts';
 
 const Parts = () => {
     const [parts, setParts] = useState([]);
-
+    const [details, setDetails] = useState(null);
 
     useEffect(() => {
         fetch('http://localhost:5000/product')
@@ -22,6 +23,15 @@ const Parts = () => {
                         ></SingleParts>)
                 }
             </div>
+
+            {
+                details &&
+                <DetailsModal
+                    details={details}
+                    setDetails={setDetails}
+                >
+                </DetailsModal>
+            }
         </div>
     );
 };
